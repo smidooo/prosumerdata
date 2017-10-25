@@ -4,12 +4,7 @@ from datetime import datetime
 import time, requests, json
 import numpy as np
 
-
-ApiKeyHome='&apikey=2539ebf29368185c43b645f2e4259e4c'
-ApiKeySol='&apikey=b61877710dbc423b44365c57be503d16'
-Host='https://emoncms.org/feed/'
-FeedNrHome = 125916
-FeedNrSol = 125920 #SOLAR
+from apiKeys import *  # Keys for APIs are stored in this external file
 
 
 
